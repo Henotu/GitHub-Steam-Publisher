@@ -14,7 +14,7 @@ def Help():
     h   for help
     q   quit
     """
-    sub("(            )", "", text)
+    print(sub("(            )", "", text))
     main()
 
 def Quit():
